@@ -10,7 +10,7 @@ Led = LED (14)
 
 ## GUI DEFINITIONS ##
 win = Tk()
-win.title("LED Toggler")
+win.title("Morse GUI")
 myFont = tkinter.font. Font(family = 'Helvetica', size = 12, weight = "bold")
 translate_dict = { 'A':'.-', 
                    'B':'-...',
